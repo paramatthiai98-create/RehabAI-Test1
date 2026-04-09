@@ -21,7 +21,7 @@ if "rep_stage" not in st.session_state:
     st.session_state.rep_stage = "down"
 
 st.sidebar.header("👤 Patient Profile")
-patient_name = st.sidebar.text_input("Name", "John Doe")
+patient_name = st.sidebar.text_input("Name", "่jeff")
 age = st.sidebar.slider("Age", 20, 80, 45)
 condition = st.sidebar.selectbox(
     "Condition",
